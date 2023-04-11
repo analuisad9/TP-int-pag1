@@ -1,10 +1,7 @@
-
 body {
-  background: #20002c;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  background-color:white ;
 }
+
 .conteiner {
   position: relative;
   width: 70%;
@@ -12,7 +9,7 @@ body {
 
 .coll {
   border: 0px;
-  background-color: #ffffff5e;
+  /* background-color: #ffffff5e; */
 }
 
 .navbar-brand {
@@ -38,23 +35,24 @@ body {
 footer {
   background-color: rgb(221, 221, 221);
   width: 100%;
-  height: 160px;
+  height: 130px;
+  margin-top: -110px;
 }
+
 .foot {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: stretch;
- 
-
   
 }
+
 .redes {
-  font-size: 23px;
+  font-size: 20px;
+  text-align: center;
   width: 25%;
   display: flex;
   padding-top: 50px;
-  justify-content: center;
 }
 
 .ayuda {
@@ -64,6 +62,7 @@ footer {
   padding-top: 50px;
   justify-content: center;
 }
+
 .nosotros {
   font-size: 23px;
   width: 25%;
@@ -74,6 +73,35 @@ footer {
 
 #carouselExampleIndicators {
   width: 100%;
+  left: 5px;
   justify-content: center;
-  
+  top: -290px;
+}
+
+.banner1{
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+.banner2{
+  margin-left: 450px;
+  margin-top: -367px;
+  margin-bottom: 500px;
+}
+
+.texto1{
+  position: absolute;
+  width: 900px;
+  height: 156px;
+  left: 135px;
+  top: 500px;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+}
+
+h3{
+  margin-left: 40px;
+  margin-top: -30px;
+
 }
