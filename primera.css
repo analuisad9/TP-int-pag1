@@ -1,7 +1,72 @@
+
+body {
+  padding-top: 80px; /* ajusta el valor según el espacio que quieras darle */
+        }
+
+.navbar-brand {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+ 
+ /* font-weight: bold; establece el grosor de la fuente en negrita. */
+        }
+
+        
+
+.navbar {
+          background-color: #E8E8E8; /* fondo de la navbar, quitar backdrop y solo poner color en donde dice transpa */
+          backdrop-filter: blur(10px);
+          box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 20px;
+        }
+        
+.navbar-nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+
+        }
+        
+.navbar-nav a:hover {
+  color: blue;
+        }
+
 body {
   background-color:white ;
 }
 
+
+.inicio {
+  margin-top: 40px;
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  flex-direction: row;
+height: 400px;
+}
+
+.tit {
+
+  width: 45%;
+
+font-size: 25px;
+text-align: center;
+margin : 50px;
+padding: 15px;
+
+}
+.imga {
+  width: 55%;
+  margin-top: 15px;
+  padding: 15px;
+
+}
 .conteiner {
   position: relative;
   width: 70%;
@@ -13,7 +78,7 @@ body {
 }
 
 .navbar-brand {
-  font-size: 34px;
+  font-size: 35px;
  
 }
 
@@ -32,11 +97,78 @@ body {
   color:rgb(136, 127, 255)
 }
 
+
+#carouselExampleIndicators {
+  width: 100%;
+  left: 5px;
+  justify-content: center;
+  top: -290px;
+}
+
+
+
+
+.bann {
+  margin-top: 30px;
+  display: flex;
+
+  background-color: aqua;
+
+}
+.banner1{
+width: 300px;
+
+  
+}
+
+.banner2{
+margin-left: 300px;
+}
+
+
+
+
+
+
+
+
+.tex {
+
+  width: 100%;
+  height: 156px;
+  left: 135px;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+}
+
+h3{
+  margin-left: 40px;
+  margin-top: -30px;
+
+}
+.banner3{
+  
+  height: 300px;
+}
+
+
+#carouselExampleIndicators {
+  width: 60%;
+  justify-content: center;
+  position:relative;
+  margin-top: 300px;
+  margin-left: 20%;
+
+  
+}
+
+
 footer {
   background-color: rgb(221, 221, 221);
   width: 100%;
   height: 130px;
-  margin-top: -110px;
+
 }
 
 .foot {
@@ -48,7 +180,7 @@ footer {
 }
 
 .redes {
-  font-size: 20px;
+  font-size: 23px;
   text-align: center;
   width: 25%;
   display: flex;
@@ -74,54 +206,6 @@ footer {
   justify-content: center;
 }
 
-#carouselExampleIndicators {
-  width: 100%;
-  left: 5px;
-  justify-content: center;
-  top: -290px;
-}
-
-.banner1{
-  margin-left: 60px;
-  margin-top: 30px;
-}
-
-.banner2{
-  margin-left: 450px;
-  margin-top: -367px;
-  margin-bottom: 500px;
-}
-
-.texto1{
-  position: absolute;
-  width: 900px;
-  height: 156px;
-  left: 135px;
-  top: 500px;
-  font-size: 20px;
-  line-height: 40px;
-  text-align: center;
-}
-
-h3{
-  margin-left: 40px;
-  margin-top: -30px;
-
-}
-footer {
-  background-color: rgb(221, 221, 221);
-  width: 100%;
-  height: 130px;
- 
-}
-
-.foot {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: stretch;
-  
-}
 
 .icons {
   display: flex;
